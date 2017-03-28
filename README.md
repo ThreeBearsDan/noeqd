@@ -26,7 +26,7 @@ This network service should also have these properties (Differences from [snowfl
 * `worker`: A single `noeqd` process with a worker and datacenter ID combination unique to their cohort.
 * `datacenter-id`: An integer representing a particular datacenter.
 * `worker-id`: An integer representing a particular worker.
-* `machine-id`: The comination of `datacenter-id` and `worker-id`
+* `machine-id`: The combination of `datacenter-id` and `worker-id`
 * `twepoch`: custom epoch (same as [snowflake][])
 
 ## Important note:
